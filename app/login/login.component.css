@@ -1,0 +1,20 @@
+.example-card {
+  
+}
+
+mat-card-actions .reserveButton {
+    position: absolute;
+    right: 0px;
+    bottom: 24px;
+    background: #1b5e20;
+    color: #fff;
+  }
+
+mat-card-actions p {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+.resultCard {
+  margin-bottom: 10px;
+}

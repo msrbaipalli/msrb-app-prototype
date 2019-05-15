@@ -1,0 +1,15 @@
+<div class="center-container" *ngIf="!show"> 
+  <h2> What are you? </h2>
+  <button
+    class="introButton"
+    mat-raised-button
+    (click) = "showSearch()">USER</button>
+  <button
+    class="introButton"
+    mat-raised-button>BUSINER HOLDER</button>
+</div>
+
+<div
+*ngIf="show">
+  <app-login></app-login>  
+</div>
